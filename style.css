@@ -1,0 +1,177 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #f4f0e8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #2d5d7b;
+    color: white;
+}
+
+#sidebar h1 {
+    font-size: 22px;
+    margin: 0;
+    padding: 20px 15px 5px 15px;
+    text-align: right;
+}
+
+#sidebar .subtitle {
+    font-size: 12px;
+    text-align: right;
+    padding: 0 15px 20px 15px;
+    color: #c9d9e3;
+}
+
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    border-top: 1px solid #3d6d8b;
+}
+
+#sidebar li a:hover {
+    background-color: #3d6d8b;
+}
+
+#sidebar li a.active {
+    background-color: #f4f0e8;
+    color: #2d5d7b;
+    font-weight: bold;
+}
+
+#main {
+    flex: 1;
+    padding: 25px 30px;
+}
+
+#main h2 {
+    font-size: 32px;
+    color: #2d5d7b;
+    text-align: center;
+    margin: 0;
+}
+
+#main h2 + p {
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+}
+
+#main h3 {
+    color: #2d5d7b;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+#main p {
+    line-height: 1.5;
+}
+
+#main ul {
+    line-height: 1.7;
+}
+
+.collage {
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+
+.gallery {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.gallery figure {
+    float: left;
+    width: 270px;
+    margin: 0 10px 15px 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.gallery figcaption {
+    font-size: 12px;
+    color: #666;
+    padding-top: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #aaa;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    font-family: Verdana, Arial, sans-serif;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #2d5d7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3d6d8b;
+}
+
+#footer {
+    clear: both;
+    font-size: 11px;
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: 25px;
+    padding-top: 10px;
+}
+
+video, audio {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
+}
